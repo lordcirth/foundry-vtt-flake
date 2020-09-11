@@ -3,7 +3,7 @@
 
   outputs = { self, nixpkgs }: rec {
     overlay = self: super: {
-      foundry-vtt = callPackage ./foundry-vtt-headless.nix { };
+      foundry-vtt = nixpkgs.pkg.callPackage ./foundry-vtt-headless.nix { };
     };
   };
 }
