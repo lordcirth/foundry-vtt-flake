@@ -5,8 +5,8 @@
 
 let
   zipfile = requireFile {
-    name = "foundry-vtt-nodejs-0.7.7.zip";
-    sha256 = "3aaea619c95243d69b1d32d8a9d8d8f5169cbdf3ca04f5621729ad5f6d6c7411";
+    name = "foundryvtt-0.7.9.zip";
+    sha256 = "672706c3512be90e6d64dc9c9769e78dad1d1daf6b9c510c65ca4c7e0d2f2e53";
     url = "";
   };
 
