@@ -25,6 +25,7 @@ in {
     systemd.services.foundry-vtt = {
       enable = true;
       wantedBy = [ "multi-user.target" ];
+      after = [ "nss-lookup.target" ];
       serviceConfig = {
         DynamicUser = true;
         StateDirectory = "foundry-vtt";
