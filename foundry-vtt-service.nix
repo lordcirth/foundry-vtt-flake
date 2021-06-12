@@ -31,7 +31,7 @@ in {
         StateDirectory = "foundry-vtt";
       };
       script =
-        "${pkgs.nodejs}/bin/node ${foundry-vtt}/resources/app/main.js --dataPath=/var/lib/foundry-vtt";
+        "${pkgs.nodejs-14_x}/bin/node ${foundry-vtt}/resources/app/main.js --dataPath=/var/lib/foundry-vtt";
     };
   };
 }
