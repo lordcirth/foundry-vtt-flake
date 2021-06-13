@@ -1,5 +1,5 @@
 { stdenv, requireFile, autoPatchelfHook, unzip, libX11, libXcomposite, glib
-, libXcursor, libXdamage, libXext, libXi, libXrender, libXtst, libxcb, nspr
+, libdrm, mesa, libXcursor, libXdamage, libXext, libXi, libXrender, libXtst, libxcb, nspr
 , dbus, gdk-pixbuf, gtk3, pango, atk, cairo, expat, libxshmfence, libXrandr, libXScrnSaver
 , alsaLib, at-spi2-core, cups, nss, ... }:
 
@@ -28,6 +28,7 @@ in stdenv.mkDerivation rec {
     glib
     gtk3
     libxshmfence
+    libdrm
     libX11
     libXScrnSaver
     libXcomposite
@@ -42,6 +43,7 @@ in stdenv.mkDerivation rec {
     libxcb
     nspr
     nss
+    mesa
     pango
     unzip
   ];
