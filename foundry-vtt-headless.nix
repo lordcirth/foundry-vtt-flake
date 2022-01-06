@@ -12,7 +12,7 @@ let
 
 in stdenv.mkDerivation rec {
   pname = "foundry-vtt";
-  version = "0.8.6";
+  version = "0.8.9";
   src = zipfile;
 
   buildInputs = [
