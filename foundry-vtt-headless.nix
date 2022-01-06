@@ -6,7 +6,7 @@
 let
   zipfile = requireFile {
     name = "foundryvtt-9.238.zip";
-    sha256 = "0000000000000000000000000000000000000000000000000000";
+    sha256 = "14ipbkvcy9pdzlgzpxgxspw5nl6snj5zgmaxp3mx94qgj5q0di7k";
     url = "";
   };
 
