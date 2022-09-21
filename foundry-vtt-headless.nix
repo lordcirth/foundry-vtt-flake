@@ -5,14 +5,14 @@
 
 let
   zipfile = requireFile {
-    name = "FoundryVTT-9.269.zip";
-    sha256 = "16qgs36y145kabmcashy1bgd5rf88hff5y9fy5w6kkypw10rghbv";
+    name = "FoundryVTT-10.286.zip";
+    sha256 = "0kfcry4lsva59krakzr8v5js1v2y5whal4f6r31pp0xq1fycs7nz";
     url = "";
   };
 
 in stdenv.mkDerivation rec {
   pname = "foundry-vtt";
-  version = "9.269";
+  version = "10.286";
   src = zipfile;
 
   buildInputs = [
