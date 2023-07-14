@@ -15,9 +15,11 @@ in stdenv.mkDerivation rec {
   version = "11.305";
   src = zipfile;
 
-  autoPatchelfIgnoreMissingDeps = [
-    "libc.musl-x86_64.so.1"
-  ];
+  #autoPatchelfIgnoreMissingDeps = [
+  #  "libc.musl-x86_64.so.1"
+  #];
+
+  autoPatchelfIgnoreMissingDeps = true;
 
   buildInputs = [
     alsaLib
