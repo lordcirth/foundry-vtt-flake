@@ -5,14 +5,14 @@
 
 let
   zipfile = requireFile {
-    name = "FoundryVTT-11.307.zip";
-    sha256 = "0k5qkmf1kk01227ads3bh7bgkrvjhjhjbwp6hkl58zdm166dikah";
+    name = "FoundryVTT-11.308.zip";
+    sha256 = "04jckd3i81a3jdq86cqp7s6b3gpsx9d1q8sbcca4fzk37yr2c53c";
     url = "";
   };
 
 in stdenv.mkDerivation rec {
   pname = "foundry-vtt";
-  version = "11.307";
+  version = "11.308";
   src = zipfile;
 
   #autoPatchelfIgnoreMissingDeps = [
