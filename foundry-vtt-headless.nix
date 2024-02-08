@@ -5,8 +5,8 @@
 
 let
   zipfile = requireFile {
-    name = "FoundryVTT-11.308.zip";
-    sha256 = "04jckd3i81a3jdq86cqp7s6b3gpsx9d1q8sbcca4fzk37yr2c53c";
+    name = "FoundryVTT-11.315.zip";
+    sha256 = "00fwsc7bwrgmdzfk2savpsalcacgzlgizs0h0g6qby53f86m70m1";
     url = "";
   };
 
