@@ -32,7 +32,7 @@ in {
         Environment="HOME=/var/lib/foundry-vtt";
       };
       script =
-        "${pkgs.nodejs-18_x}/bin/node ${foundry-vtt}/resources/app/main.js --dataPath=/var/lib/foundry-vtt";
+        "${pkgs.nodejs-24_x}/bin/node ${foundry-vtt}/resources/app/main.js --dataPath=/var/lib/foundry-vtt";
     };
   };
 }
