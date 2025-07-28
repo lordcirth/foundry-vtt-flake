@@ -1,7 +1,7 @@
 { stdenv, requireFile, autoPatchelfHook, unzip, libX11, libXcomposite, glib
 , libdrm, mesa, libXcursor, libXdamage, libXext, libXi, libXrender, libXtst, libxcb, nspr
 , dbus, gdk-pixbuf, gtk3, pango, atk, cairo, expat, libxshmfence, libXrandr, libXScrnSaver
-, alsaLib, at-spi2-core, cups, nss, ... }:
+, alsa-lib, at-spi2-core, cups, nss, ... }:
 
 let
   zipfile = requireFile {
@@ -18,7 +18,7 @@ in stdenv.mkDerivation rec {
   autoPatchelfIgnoreMissingDeps = true;
 
   buildInputs = [
-    alsaLib
+    alsa-lib
     at-spi2-core
     atk
     autoPatchelfHook
