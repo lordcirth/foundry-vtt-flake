@@ -5,7 +5,7 @@
 
 let
   zipfile = requireFile {
-    name = "FoundryVTT-Linux-13.347.zip";
+    name = "FoundryVTT-13.347.zip";
     sha256 = "13bba5hmkcbgli96l2w75a14v8abn29mrkjskl0y74lzf3rqlsw1";
     url = "";
   };
